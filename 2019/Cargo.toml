@@ -1,0 +1,34 @@
+[package]
+name = "adventofcode2019"
+version = "0.1.0"
+authors = ["Marcus Cobden <git@marcuscobden.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "01_01"
+path = "src/01/01/main.rs"
+
+[[bin]]
+name = "01_02"
+path = "src/01/02/main.rs"
+
+[[bin]]
+name = "02_01"
+path = "src/02/01/main.rs"
+
+[[bin]]
+name = "02_02"
+path = "src/02/02/main.rs"
+
+[[bin]]
+name = "03_01"
+path = "src/03/01/main.rs"
+
+[[bin]]
+name = "03_02"
+path = "src/03/02/main.rs"
+
+[dependencies]
+itertools = "0.7.8"
